@@ -457,14 +457,6 @@ h2 {
 }
 
 .service-card {
-  min-height: 200px;
-  position: relative;
-
-  padding: 28px 25px;
-
-  border-right: 1px solid var(--line);
-  transition: .2s;
-.service-card {
   min-height: 270px;
 
   display: flex;
