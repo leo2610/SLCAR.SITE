@@ -464,21 +464,20 @@ h2 {
 
   border-right: 1px solid var(--line);
   transition: .2s;
-}
+.service-card {
+  min-height: 270px;
 
-.service-card:last-child {
-  border-right: 0;
+  display: flex;
+  flex-direction: column;
+
+  padding: 28px 25px;
+
+  border-right: 1px solid var(--line);
+  transition: .2s;
 }
 
 .service-card:hover {
   background: #111;
-}
-
-.service-number {
-  color: #444;
-  font-family: "Barlow Condensed", sans-serif;
-  font-size: 28px;
-  font-weight: 700;
 }
 
 .service-card h3 {
@@ -493,8 +492,8 @@ h2 {
 }
 
 .service-card a {
-  position: absolute;
-  bottom: 25px;
+  margin-top: auto;
+  padding-top: 25px;
 
   color: var(--red);
   font-size: 11px;
@@ -502,7 +501,6 @@ h2 {
   letter-spacing: .1em;
   text-transform: uppercase;
 }
-
 /* =========================
    9. CATÁLOGO
    ========================= */
